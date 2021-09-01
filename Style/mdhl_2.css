@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*--------------HEADER--------------*/
+
+#tittle {
+    height: 40vh;
+    background-image: url("../Image/design1_image1.jpg");
+    background-size: cover;
+}
+#tittle h2{
+    position: absolute;
+    top: 44vh;
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+    line-height: 4vh;
+    color:rgb(241, 229, 54);
+    background-color: rgb(5, 4, 4);
+}
+/*--------------LOGO--------------*/
+#logo {
+    position: absolute;
+    width: 200px;
+    top: 60vh;
+    left: 2vh;
+    background-color: black;
+}
+/*--------------TITULO--------------*/
+#first-title {
+    color: rgb(241, 228, 228);
+    background-color: rgb(2, 2, 2);
+    height: 8vh;
+    line-height: 8vh;
+
+}
+/*--------------BARRA NAV--------------*/
+nav {
+    position: absolute;
+    top: 7vh;
+    left: 75vw;
+}
+nav > a {
+    padding: 10px 15px;
+    background-color: rgb(241, 229, 54);
+    margin: 10px;
+}
+/*--------------CONTENIDO MAIN--------------*/
+
+#days {
+    position: absolute;
+    top: 58vh;
+    right: 50vh;
+    font-size: 20px;
+}
+#days p{
+    margin: 2vh 5vw; 
+}
+/*--------------CONTENIDO ABOUT--------------*/
+.about .container {
+    position: absolute;
+    top: 50vh;
+    left: 20vw;
+    font-size: 18px;
+}
+.about .container .items {
+    margin: 5vh;
+}
+
+/*--------------CONTENIDO CONTACT--------------*/
+#containerEmail {
+    position: absolute;
+    top: 70vh;
+    left: 30vw;
+    font-size: 18px;
+}
+#containerEmail a,p {
+    margin: 5vh;
+}
+
+/*--------------IMG--------------*/
+
+#images {
+    display: none;
+}
+
+/*----------FOOTER-----------*/
+
+footer {
+    display: none;
+}

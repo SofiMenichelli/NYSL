@@ -1,0 +1,387 @@
+/*-------------------            fuente       ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Open+Sans&family=Original+Surfer&display=swap');
+:root {
+    --primary-color: #63A69A;
+    --secondary-color: #F2D230;
+    --thirds-color: #D98D30;
+    --fouth-color: #BF3F34;
+    --fifth-color: #0D0D0D;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fouth-color);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Original Surfer', cursive;
+    
+}
+
+/*-------------------            LOGO       ----------------- */
+#logo {
+    width: 200px;
+    margin:auto;
+    border-radius: 30%;
+    border: 6px ;
+    border-style: groove; 
+}
+
+/*-------------------            FIRST TITTLE       ----------------- */
+#first-title {
+    background-color: var(--first-color);
+    text-align: center;
+    margin: auto;
+    font-family: 'Freckle Face', cursive;
+}
+
+/*-------------------            HEADER       ----------------- */
+#header-my_style {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 6px double var(--thirds-color);
+    margin: 1em;
+}
+
+/*-------------------             NAV       ----------------- */
+nav > ul {
+    padding: 30px;
+    list-style-type: none;
+}
+ul > li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+li > a {
+    list-style: none;
+    padding: 3px;
+    background-color:#D98D30;
+    text-decoration: none;
+    color: var(--fifth-color);
+    border: 1px solid var(--fifth-color);
+
+}
+a:hover {
+    text-decoration: underline;
+    color: var(--fouth-color);
+    text-transform: uppercase;
+    text-decoration-color: var(--secondary-color)
+}
+main {
+    padding: 30px;
+    margin: 2vh;
+    border: 6px double #D98D30;
+    color: white;
+}
+main .black {
+    color: black;
+}
+/*-------------------            HOME       ----------------- */
+#days {
+    padding: 30px;
+    margin: 2vh;
+    border: 6px double #D98D30;
+}
+#days h3,p {
+    margin: 2vh;
+}
+/*-------------------            IMG HOME       ----------------- */
+#images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 2vh;
+    border: 6px double #D98D30;
+}
+#images > div {
+    width: 20vw;
+    height: 30vh;
+    margin: 2vh 0vw;
+    border: 3px solid #D98D30;
+}
+#i1 {
+    background-image: url("../Image/design1_image1.jpg");
+    background-size: cover;
+}
+#i2 {
+    background-image: url("../Image/design1_image2.jpg");
+    background-size: cover;
+}
+#i3 {
+    background-image: url("../Image/hockey_3.jpg");
+    background-size: cover;
+}
+
+#i4 {
+    background-image: url("../Image/hockey_2.jpg");
+    background-size: cover;
+}
+
+#i5 {
+    background-image: url("../Image/hockey_1.jpg");
+    background-size: cover;
+  
+}
+
+/*-------------------            RULES       ----------------- */
+#subtittle2 {
+    margin-bottom: 4vh;
+    text-align: left;
+}
+h2 {
+    text-align: center;
+}
+ol > h2 {
+    margin-bottom: 2vh;
+    text-align: left;
+}
+.borde {
+    padding: 30px;
+    margin: 2vh;
+    border: 6px double #D98D30;
+}
+dd {
+   list-style-type: circle;
+    margin-bottom: 2vh;
+}
+dt {
+    margin: 2vh 0vw;
+}
+#list > li {
+    margin-bottom: 2vh;
+}
+#list {
+    list-style-position: inside;
+    list-style: numeric;
+    text-align: left;
+}
+
+#list-list {
+    list-style-position: inside;
+    list-style-type: lower-latin;
+}
+
+/*-------------------            GAME INFORMATION       ----------------- */
+.gameInfo {
+    text-align: left;
+    text-decoration: underline;
+    font-style: italic;
+} 
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+}
+.subtInfo {
+    text-align: left;
+    padding-bottom: 2vh;
+}
+
+table {
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+    align-self: center;
+}
+th, td {
+   text-align: left;
+}
+.fecha {
+    text-align: center;
+    align-items: center;
+} 
+tr > td {
+    padding: 2vh 0vw;
+}
+.info {
+    bottom: 5vh;
+    border: 1px solid var(--fifth-color);
+}
+.infoContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+td > a:visited {
+    color: var(--secondary-color);
+}
+td > a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    text-decoration-color: var(--secondary-color);
+    padding: 0.5em;
+    background-color: var(--fifth-color);
+}
+#maps h4 {
+    color: var(--fifth-color);
+    font-size: 1.5rem;
+    margin: 2vh 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    background-color: var(--primary-color);
+}
+#maps div iframe {
+    width: 100%;
+    border: 3px dashed var(--fifth-color);
+}
+
+/*-------------------            ABOUT       ----------------- */
+.container {
+    padding: 30px;
+    margin: 2vh;
+    border: 6px double #D98D30;
+}
+.container .items p {
+    margin-top: 1vh;
+    margin-left: 4vh;
+}
+/*-------------------            REGISTRATION       ----------------- */
+#registration main{
+    color: black;
+}
+input {
+    background-color: var(--fouth-color);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--fifth-color);
+}
+input[type="submit"] {
+    padding: 1rem 3rem;
+    border: 10px solid var(--secondary-color);
+    border-radius: 15%;
+   /*  background-color: var(--primary-color); */
+    text-shadow: 2px 2px 3px var(--fifth-color);
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-style: double;
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: var(--secondary-color);
+    float:right;
+}
+#registration h1 {
+    text-align: center;
+    padding: 2rem;
+}
+#registration h2, h3 {
+    text-align: left;
+    margin: 2rem 0;
+}
+#registration p {
+    margin: 0;
+}
+#registration input {
+    margin: 0vh 2vw;
+}
+fieldset {
+    border: none;
+    margin: 2em 0;
+}
+.infoUser {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.infoUser label {
+    display: flex;
+    width: 50%;
+    margin: 2vh 0;
+    justify-content: space-between;
+}
+.infoUser input {
+    flex-grow: 1;
+}
+#address {
+    width: 100%;
+}
+.infoUser label > div {
+    width: 100%;
+    margin-left: 1vw;
+}
+
+#position {
+    display: flex;
+    flex-direction: column;
+}
+#position2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: wrap;
+}
+#position2 > input {
+    width: 25%;
+    
+}
+.school {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+#uniformSize {
+    display: flex;
+    flex-direction: column;
+}
+#uniform {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: wrap;
+}
+#uniform > label {
+    width: 50%;
+}
+
+/*-------------------            CONTACT       ----------------- */
+ #containerEmail {
+    padding: 30px;
+    margin: 2vh;
+    border: 6px double #D98D30;
+} 
+#containerEmail p{
+    margin-left: 0vh;
+    color: black;
+}
+#containerEmail a{
+    color:#08face;
+}
+
+/*-------------------            FOOTER       ----------------- */
+footer {
+    float: right;
+    top: 95vh;
+    
+} 
+
+/*-------------------            SHOW DATA       ----------------- */
+#showData a{
+    text-decoration: underline;
+    color: var(--fouth-color);
+    text-transform: uppercase;
+    text-decoration-color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-size: 20px;
+    text-align: right;
+    margin: 2vh 5vw;
+}
+/* #showData tr > th, 
+tr > td:first-child {
+    text-transform: uppercase;
+    background-color: #D98D30;
+    font-weight: bold;
+}
+#showData table {
+    width: 100%;
+    margin: 2rem;
+} */

@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*---------------HEADER---------------*/
+body{
+    background-color: #f5dc5e;
+
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+header h1 {
+    padding: 5px 0px 100px 5px;
+    border: 3px solid black;
+    background-image: url("../Image/design1_image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 30vh;
+    color:#F2D230 ;
+}
+
+header img {
+    position: absolute;
+    left: 60%;
+    width: 10px;
+}
+
+#tittle {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    color:#eccd2d;
+    background-color: #0D0D0D;
+    background-size: 50%;
+    
+}
+#tittle h2{
+    padding: 10px;
+}
+
+#tittle img {
+    width: 140px;
+    margin-left: 30px;
+}    
+
+/*---------------BARRA NAV-----------*/
+
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 40vh;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+nav>a {
+    color:black;
+}
+
+/*---------------MAIN INDEX---------------*/
+
+main {
+    display: flex;
+    flex-direction: row;
+    color: black;
+}    
+#days{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}    
+.tab  {
+    margin-left: 40px;
+}    
+#days h3 {
+    font-style: italic;
+}    
+
+
+/*---------------MAIN ABOUT---------------*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+  
+}
+.items p{
+    margin-left: 20px;
+}
+
+/*---------------MAIN CONTACT---------------*/
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-grow: 1;
+}
+
+#containerEmail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+}
+/*----------IMAGES-----------*/
+#images {
+    display:none;
+}
+/*----------FOOTER-----------*/
+/* footer {
+    display:none;
+} */
